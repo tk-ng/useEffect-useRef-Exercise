@@ -9,12 +9,17 @@ button {
 	color: white;
 	border-radius: 8px;
 	border: none;
-	margin: 0 auto;
+	margin: 0 5px;
 }
 
 button:hover {
 	cursor: pointer;
 	background-color: #444;
+}
+
+button:hover:disabled {
+	cursor: not-allowed;
+	background-color: black;
 }
 
 button:active,
